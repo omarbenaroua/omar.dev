@@ -1,0 +1,11 @@
+.social{
+  padding: calc(var(--padding-primary) / 2) 0;
+}
+.social i{
+  padding: calc(var(--padding-primary) / 3);
+  transition: 1s;
+}
+.social i:hover{
+  padding: 10px calc(var(--padding-primary)/2);
+  color: var(--color-primary);
+}

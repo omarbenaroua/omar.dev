@@ -1,0 +1,30 @@
+.logo {
+  height: 35px;
+  padding: 0px 20px;
+}
+
+.logo-cover {
+  position: relative;
+  z-index: -1;
+  display: flex;
+  width: 800px;
+  justify-content: center;
+  margin: 130px auto;
+}
+
+@media (max-width: 992px) {
+  .cover-icon {
+    position: relative;
+    width: 500px;
+    top: -50px;
+    justify-content: center;
+    margin: 130px auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .cover-icon {
+    width: 400px;
+    top: -80px;
+  }
+}

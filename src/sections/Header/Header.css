@@ -1,0 +1,14 @@
+.navbar {
+  background-color: var(--color-darkest);
+  height: 80px;
+  z-index: 1;
+  border-bottom: 1px solid var(--color-primary);
+  box-shadow: 10px 10px 20px var(--color-primary);
+}
+.navbar .navbar-nav {
+  padding: 0px 20px;
+}
+
+.navbar .navbar-collapse {
+  background-color: var(--color-darkest);
+}

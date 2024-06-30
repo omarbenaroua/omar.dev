@@ -1,0 +1,76 @@
+.contact {
+  padding-top: var(--padding-primary);
+  background-image: url("../../assets//images/gold.jpg");
+  box-shadow: 10px 10px 100px var(--color-primary);
+}
+
+.contact-title {
+  font-size: 80px;
+  text-align: center;
+  font-weight: 800;
+  letter-spacing: -3px;
+  margin: 0;
+  color: var(--color-light);
+}
+
+.contact-title+p {
+  text-align: center;
+  margin: -30px;
+  font-size: 20px;
+  color: var(--color-primary);
+  text-shadow: 5px 5px 10px var(--color-primary);
+}
+
+.contact .info {
+  padding-top: var(--padding-primary);
+  text-align: center;
+  color: var(--color-primary);
+}
+
+.contact .info .label {
+  font-size: 25px;
+  font-weight: 800;
+  letter-spacing: -2px;
+  margin-bottom: 15px;
+}
+
+.contact .info .link {
+  display: block;
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--color-light);
+}
+
+.contact .info .social {
+  margin-top: 20px;
+  font-size: 30px;
+  text-shadow:10px 10px 100px var(--color-primary);
+}
+
+.contact .info .social p{
+  margin-bottom: -60px;
+}
+
+.footer {
+  background-color: var(--color-darkest);
+  color: var(--color-light);
+  padding: 30px 10px;
+  text-align: center;
+  font-size: 18px;
+  box-shadow: 10px 10px 100px var(--color-primary);
+}
+
+.footer span {
+  font-weight: bold;
+  color: var(--color-light);
+}
+
+
+/* Media */
+@media (max-width: 767px) {
+
+  .contact .info .label,
+  .contact .info .link {
+    font-size: 25px;
+  }
+}
