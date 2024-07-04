@@ -15,8 +15,9 @@ const Landing = () => {
         <div className="cover-image"></div>
         </motion.div>
         <PageTitle/>
-        <Symbols />
+        <div className="overlay"></div>
       </div>
+      <Symbols />
     </>
   );
 };

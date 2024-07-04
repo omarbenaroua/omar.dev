@@ -15,18 +15,16 @@ const PortfolioCard = (props) => {
                 {props.title}
               </h3>
               <p className="card-text">{props.text}</p>
+              <p className="card-notice">{props.notice}</p>
               <div className="skill">{props.skills}</div>
               <div className='card-button'>
+                <div>
               <SecondaryButton>
                 <a href={props.site} target="_blank" rel="noreferrer">
                   Site Web
                 </a>
               </SecondaryButton>
-              <SecondaryButton>
-                <a href={props.site2} target="_blank" rel="noreferrer">
-                  BackEnd
-                </a>
-              </SecondaryButton>
+              </div>
               <p className="card-text"><span>Year of creation</span>: {props.year}</p>
               </div>
             </div>

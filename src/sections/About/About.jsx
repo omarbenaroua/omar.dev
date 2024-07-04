@@ -21,8 +21,10 @@ const About = () => {
   })
   return (
     <>
+    <div className="about">
+    <motion.div ref={ref} style={{scale: scrollYProgress, opacity: scrollYProgress}}>
       <Title onClick={scroll}>About Me</Title>
-      <motion.div className="about" ref={ref} style={{scale: scrollYProgress, opacity: scrollYProgress}}>
+      <div className="about-text" >
         <p>
           "Sono <span>Omar</span>, un giovane e appassionato
           nello sviluppo siti web <span>front-end</span> con una fervente passione per il mondo
@@ -49,7 +51,9 @@ const About = () => {
           porteremo le tue idee al successo online."
         </p>
         <img src={img} alt=" " /> 
+        </div>
       </motion.div>
+      </div>
     </>
   );
 };

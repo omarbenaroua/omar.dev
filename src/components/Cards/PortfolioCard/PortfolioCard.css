@@ -10,12 +10,6 @@
     transition: 1s;
 }
 
-@media (max-width: 992px) {
-    .portfolio-card .card {
-        font-size: 15px;
-    }
-}
-
 .portfolio-card .card:hover {
     transform: translateY(-5px);
     box-shadow: 10px 10px 100px var(--color-primary);
@@ -34,49 +28,50 @@
 }
 
 .portfolio-card .card-body .card-text {
-    font-size: 16px;
+    font-size: 15px;
 }
 
-@media (max-width: 992px) {
-    .portfolio-card .card-body .card-text {
-        font-size: 12px;
-    }
-}
+
 .portfolio-card .card-body .skill {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     padding-bottom: 10px;
 }
-.portfolio-card .card-body .skill img{
+
+.portfolio-card .card-body .skill img {
     width: 25px;
     margin: 5px;
 }
-.portfolio-card .card-body .skill p{
-    display:inline-flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0 5px;
-    font-size: 10px;
-}
-@media (max-width: 992px) {
-    .portfolio-card .card-body .skill p{
-        font-size: 15px;
-    }
-  }
 
-  .portfolio-card .card-body .card-button{
+.portfolio-card .card-body .card-notice{
+    font-size: 10px;
+    color: red;
+}
+.portfolio-card .card-body .card-button {
     display: flex;
     justify-content: space-between;
-  }
-  .portfolio-card .card-body .card-button p {
+}
+
+.portfolio-card .card-body .card-button p {
     display: flex;
     align-items: center;
     font-size: 13px;
 }
+
 .portfolio-card .card-body .card-button span {
     display: flex;
     align-items: center;
     color: var(--color-primary);
     font-size: 13px;
+}
+
+
+@media (max-width: 992px) {
+    .portfolio-card .card-body .card-text {
+        font-size: 11px;
+    }
+    .portfolio-card .card-body .card-notice{
+        font-size: 8px;
+    }
 }

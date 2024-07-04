@@ -18,7 +18,7 @@ const Projects = () => {
         text={card.text}
         year={card.year}
         site={card.site}
-        site2={card.site2}
+        notice={card.notice}
         skills={card.skills.map((skl) => {
           return (
             <>
