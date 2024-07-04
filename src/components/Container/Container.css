@@ -1,5 +1,5 @@
 .main-container{
-    margin: calc(var(--margin-primary) *2) ;
+    margin: calc(var(--margin-primary) + 5px) ;
     padding: var(--padding-primary) ;
     position: relative;
     z-index: 1;

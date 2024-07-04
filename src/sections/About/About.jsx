@@ -21,7 +21,7 @@ const About = () => {
   })
   return (
     <>
-    <div className="about">
+    <div className="about container">
     <motion.div ref={ref} style={{scale: scrollYProgress, opacity: scrollYProgress}}>
       <Title onClick={scroll}>About Me</Title>
       <div className="about-text" >

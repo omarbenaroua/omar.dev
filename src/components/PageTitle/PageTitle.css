@@ -1,8 +1,5 @@
-.lading-text{
-  overflow: hidden;
-}
 .lading-title .lading-text {
-  margin: 0px;
+  margin: 60px 0px;
   padding: var(--padding-primary);
   color: var(--color-light);
   position: relative;
@@ -14,7 +11,7 @@
 @media (max-width: 1280px) {
   .lading-title .lading-text {
     align-items: center;
-    font-size: 40px;
+    font-size: 600px;
   }
  }
 
@@ -30,6 +27,9 @@
 }
 
 @media (max-width: 768px) {
+  .lading-text{
+    top: 1px;
+  }
   .lading-title .lading-title.lading-text {
     font-size: 20px;
   }

@@ -15,8 +15,8 @@ const PortfolioCard = (props) => {
                 {props.title}
               </h3>
               <p className="card-text">{props.text}</p>
-              <p className="card-notice">{props.notice}</p>
               <div className="skill">{props.skills}</div>
+              <p className="card-notice">{props.notice}</p>
               <div className='card-button'>
                 <div>
               <SecondaryButton>
