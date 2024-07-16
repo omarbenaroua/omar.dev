@@ -1,9 +1,21 @@
 import "./ServicesCard.css";
+import { motion, useScroll } from "framer-motion";
+import { useRef } from "react";
 
-function ServicesCard(props) {
+
+function ServicesCard (props) {
+  const ref = useRef(null);
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["0 2", "0.5 1"],
+  });
   return (
     <>
-      <div className="services-card card text-center mb-3 bg-dark" style={{ width: "22rem" }}>
+    <motion.div
+            className="services-card card text-center"
+            ref={ref}
+            style={{ scale: scrollYProgress, opacity: scrollYProgress }}
+    >
         <div className="card-body bg-dark">
         <img src={props.img} alt="" />
           <h5 className="card-title">{props.title}</h5>
@@ -12,7 +24,7 @@ function ServicesCard(props) {
           <div className="punto"></div>
           </p>
         </div>
-      </div>
+      </motion.div>
     </>
   );
 }

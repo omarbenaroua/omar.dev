@@ -1,5 +1,5 @@
 import './Portfolio.css'
-import {Portfolio , Footer} from '../../sections/index'
+import {Portfolio} from '../../sections/index'
 import { Container, LogoCover } from '../../components'
 
 const portfolio = () => {
@@ -9,7 +9,6 @@ const portfolio = () => {
     <Container>
       <Portfolio/>
     </Container>
-    <Footer/>
     </>
   )
 }

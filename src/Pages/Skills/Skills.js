@@ -1,5 +1,5 @@
 import './Skills.css'
-import {Footer, Skills} from '../../sections/index'
+import {Skills} from '../../sections/index'
 import { Container, LogoCover } from '../../components/index'
 
 const Skill = () => {
@@ -9,7 +9,6 @@ const Skill = () => {
     <Container>
       <Skills/>
     </Container>
-    <Footer/>
     </>
   )
 }

@@ -12,6 +12,11 @@
   margin: 130px auto;
 }
 
+.logo-cover{
+  width: 400px;
+  margin-bottom: -100px ;
+}
+
 @media (max-width: 992px) {
   .cover-icon {
     position: relative;

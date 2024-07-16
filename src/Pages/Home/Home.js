@@ -1,5 +1,5 @@
 import "./Home.css"
-import {About, Footer, Landing , Portfolio , Skills, Services} from '../../sections/index';
+import {About, Landing , Portfolio , Skills, Services} from '../../sections/index';
 import {Container} from '../../components/index';
 
 const Home = () => {
@@ -12,7 +12,6 @@ const Home = () => {
       <Skills/>
       <Portfolio/>
     </Container>
-    <Footer/>
     </>
   )
 }

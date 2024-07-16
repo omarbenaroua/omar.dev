@@ -1,6 +1,7 @@
 .services-card{
     margin: 5px;
     border-radius: var(--border-radius-primary);
+    width: 400px;
 }
 
 .services-card .card-body {
@@ -28,8 +29,7 @@
 }
 
 .services-card .card-body .card-text {
-    display: block;
-    padding: calc(var(--padding-primary)/2) 0;
+    padding: calc(var(--padding-primary)/2);
     color: var(--color-light);
     transition: 0s;
 }

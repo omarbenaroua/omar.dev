@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
-import { Header } from "./sections/index";
+import { Header , Footer , Contact } from "./sections/index";
 import { Home, About, Skills, Portfolio } from "./Pages/index";
 
 const App = () => {
@@ -14,6 +14,8 @@ const App = () => {
           <Route path="/skills" element={<Skills />} />
           <Route path="/portfolio" element={<Portfolio />} />
         </Routes>
+        <Contact/>
+        <Footer/>
       </Router>
     </>
   );

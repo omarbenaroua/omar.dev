@@ -1,6 +1,7 @@
 import { Social, PrimaryButton } from "../index";
 import "./PageTitle.css";
 import { motion } from "framer-motion";
+import Resume from "../../assets/images/CV.png"
 
 const PageTitle = () => {
   return (
@@ -19,7 +20,8 @@ const PageTitle = () => {
           And I<span>'</span>m a <span>Front-End Developer</span>
         </p>
         <Social />
-        <PrimaryButton>my cv</PrimaryButton>
+        <PrimaryButton><a href={Resume} download="Omar_ben_aroua_CV" alt="">Download CV</a></PrimaryButton>
+        
       </motion.div>
       </div>
     </>

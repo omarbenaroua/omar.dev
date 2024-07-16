@@ -1,5 +1,5 @@
 import './About.css'
-import {About, Footer} from '../../sections/index'
+import {About} from '../../sections/index'
 import { Container, LogoCover} from '../../components'
 
 const about = () => {
@@ -9,7 +9,6 @@ const about = () => {
     <Container>
       <About/>
     </Container>
-    <Footer/>
     </>
   )
 }

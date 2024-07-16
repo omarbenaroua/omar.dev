@@ -1,5 +1,5 @@
 import "./Footer.css";
-import { LogoSecondary, Social } from "../../components/index";
+import { Logo, Social } from "../../components/index";
 
 const Footer = () => {
   return (
@@ -19,7 +19,7 @@ const Footer = () => {
             <div className="social">
               <p>Find me on social networks</p>
               <Social />
-              <LogoSecondary/>
+              <Logo/>
             </div>
           </div>
         </div>
