@@ -6,8 +6,8 @@ import Resume from "../../assets/images/CV.png"
 const PageTitle = () => {
   return (
     <>
-    <div className="lading-title">
-      <motion.div className="lading-text container"
+    <div className="landing-title">
+      <motion.div className="landing-text "
         initial={{ opacity: 0, x: -100 }}
         animate={{ opacity: 1, x: 10 }}
         transition={{ duration: 1.5 }}

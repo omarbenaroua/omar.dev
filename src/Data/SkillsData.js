@@ -21,6 +21,7 @@ import LogoMicrosoft from "../assets/icons/microsoft.ico";
 import LogoStrapi from "../assets/icons/strapi-removebg-preview.ico"
 import LogoClerk from "../assets/icons/clerk.ico"
 import LogoCloudinary from "../assets/icons/cloudinary.png"
+import LogoGithub from "../assets/icons/github.png"
 
 const skillsInfo = [
   {
@@ -61,6 +62,7 @@ const skillsInfo = [
       { id: 3, skill: "Cloudinary", img: LogoCloudinary },
       { id: 4, skill: "Canva", img: LogoCanva },
       { id: 5, skill: "Microsoft 365", img: LogoMicrosoft },
+      { id: 6, skill: "GitHub", img: LogoGithub },
 
     ],
   },

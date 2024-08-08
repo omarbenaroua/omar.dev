@@ -1,6 +1,6 @@
 import "./Landing.css";
 import {PageTitle, Symbols} from "../../components/index";
-import Img from "../../assets/images/IMG_6681-p.JPG";
+import Img from "../../assets/images/01.png";
 import { motion } from "framer-motion";
 
 const Landing = () => {

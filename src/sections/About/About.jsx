@@ -1,5 +1,5 @@
 import "./About.css";
-import img from "../../assets/images/cover.jpg";
+import img from "../../assets/images/02.png";
 import { Title } from "../../components/index";
 import { useRef } from "react";
 import { useScroll } from "framer-motion";
@@ -17,11 +17,11 @@ const About = () => {
   // scroll progress
   const { scrollYProgress } = useScroll({
     target:ref,
-    offset:["0 1.5", "0.5 1"]
+    offset:["0 1.5", "0.9 1"]
   })
   return (
     <>
-    <div className="about container">
+    <div className="about ">
     <motion.div ref={ref} style={{scale: scrollYProgress, opacity: scrollYProgress}}>
       <Title onClick={scroll}>About Me</Title>
       <div className="about-text" >
@@ -34,7 +34,7 @@ const About = () => {
           coinvolgenti e interattivi che si distinguono nel panorama online. Con
           una solida conoscenza di <span>HTML</span>, <span>CSS</span> e <span>JavaScript</span>, sono in grado di
           costruire interfacce utente intuitive e responsive. Abbraccio le nuove
-          tecnologie e i framework più avanzati come <span>React</span>, sfruttando
+          tecnologie e i framework più avanzati come <span>React</span> e <span>Nextjs</span>, sfruttando
           al massimo il potenziale del front-end. La mia attenzione ai dettagli
           si riflette in siti web esteticamente accattivanti e altamente
           performanti. Oltre alla mia abilità tecnica, sono un curioso per

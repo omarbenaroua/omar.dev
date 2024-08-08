@@ -1,24 +1,43 @@
 .about{
     padding-bottom: var(--padding-primary);
+
 }
 .about-text {
     position: relative;
     display: flex;
+    align-items: center;
 }
 
 .about-text img {
     position: relative;
-    width: 400px;
-    height: 200px;
+    width: auto;
+    height: 600px;
+    margin: 20px;
+    background: var(--color-primary);
+    border-radius: 40%;
+    box-shadow: 0px 20px 70px var(--color-primary);
+    border-left : solid black;
+    border-right : solid white;
 }
 
 .about-text p {
-    margin: 30px;
+    font-size: 20px;
     color: var(--color-light);
+    margin: 20px;
 }
 
 .about-text p span {
     color: var(--color-primary);
+}
+
+@media (min-width: 1500px) {
+    .about-text img {
+        height: 700px;
+        top: 50px;
+    }
+    .about-text p {
+        font-size: 29px;
+    }
 }
 
 @media (max-width: 992px) {
@@ -26,7 +45,7 @@
         display: none;
     }
     .about-text p {
-        margin: 0 -100px;
+        margin: 0 20px;
         font-size: 20px;
     }
 }

@@ -1,14 +1,13 @@
 import './About.css'
-import {About} from '../../sections/index'
-import { Container, LogoCover} from '../../components'
+import {About , Services} from '../../sections/index'
+import {LogoCover} from '../../components'
 
 const about = () => {
   return (
     <>
     <LogoCover/>
-    <Container>
       <About/>
-    </Container>
+      <Services/>
     </>
   )
 }
