@@ -58,6 +58,7 @@
   text-align: center;
   font-size: 18px;
   box-shadow: 10px 10px 100px var(--color-primary);
+  max-height: 100px;
 }
 
 .footer span {

@@ -16,8 +16,8 @@
     background: var(--color-primary);
     border-radius: 40%;
     box-shadow: 0px 20px 70px var(--color-primary);
-    border-left : solid black;
-    border-right : solid white;
+    border-left : 5px solid black;
+    border-right : 5px solid white;
 }
 
 .about-text p {
