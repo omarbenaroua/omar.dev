@@ -6,7 +6,7 @@ import { useRef } from 'react'
 function Services() {
     const ref = useRef(null)
   const scroll = () => {
-    ref.current.scrollIntoView({behavior: "smooth",block: "start", inline: "nearest"});
+    ref.current.scrollIntoView({behavior: "smooth",block: "center", inline: "nearest"});
   }
     const dataServices = infoServices.map((info) => {
         return(

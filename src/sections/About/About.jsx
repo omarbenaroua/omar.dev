@@ -11,7 +11,7 @@ const About = () => {
 
   //scroll button
   const scroll = () => {
-    ref.current.scrollIntoView({behavior: "smooth",block: "end", inline: "nearest"});
+    ref.current.scrollIntoView({behavior: "smooth",block: "center", inline: "nearest"});
   }
 
   // scroll progress

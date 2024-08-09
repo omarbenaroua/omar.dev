@@ -6,6 +6,7 @@ const PortfolioCard = (props) => {
 
     return (
       <>
+      <a href={props.site} target="_blank" rel="noreferrer">
         <div name="scrollElement" className="portfolio-card col">
           <div className="card h-100 bg-dark">
             <img src={props.image} className="card-img-top" alt=" "></img>
@@ -30,6 +31,7 @@ const PortfolioCard = (props) => {
             </div>
           </div>
         </div>
+        </a>
       </>
     );
   };

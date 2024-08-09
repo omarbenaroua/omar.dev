@@ -6,7 +6,7 @@ import { useRef } from "react";
 const Projects = () => {
   const ref = useRef(null)
   const scroll = () => {
-    ref.current.scrollIntoView({behavior: "smooth",block: "end", inline: "nearest"});
+    ref.current.scrollIntoView({behavior: "smooth",block: "center", inline: "nearest"});
   }
   const Cards = portfolioInfo.map((card) => {
     return (

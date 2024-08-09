@@ -6,7 +6,7 @@ import { useRef } from "react";
 const Skills = () => {
   const ref = useRef(null)
   const scroll = () => {
-    ref.current.scrollIntoView({behavior: "smooth",block: "start", inline: "nearest"});
+    ref.current.scrollIntoView({behavior: "smooth",block: "center", inline: "nearest"});
   }
 
   const Cards = skillsInfo.map((info) => {
