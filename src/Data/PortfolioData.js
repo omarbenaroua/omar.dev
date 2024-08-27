@@ -14,7 +14,9 @@ import LogoReact from "../assets/icons/react.png";
 import LogoRedux from "../assets/icons/redux.ico";
 import LogoReactRouter from "../assets/icons/react-router.png";
 import LogoNext from "../assets/icons/next-js.png";
-import LogoJsx from "../assets/icons/jsx.ico"
+import LogoJsx from "../assets/icons/jsx.ico" 
+import LogoBootstrap from "../assets/icons/bootstrap.png" 
+import LogoTailwindcss from "../assets/icons/tailwindcss.png" 
 
 /* import LogoHtml from "../assets/icons/html.png";
 import LogoTs from "../assets/icons/typescript.ico";
@@ -45,6 +47,7 @@ const projectsInfo = [
       { id: 5, skill: "Strapi", img: LogoStrapi },
       { id: 6, skill: "Clerk", img: LogoClerk },
       { id: 7, skill: "Cloudinary", img: LogoCloudinary },
+      { id: 8, skill: "Tailwindcss", img: LogoTailwindcss },
     ],
   },
   {
@@ -62,6 +65,7 @@ const projectsInfo = [
       { id: 4, skill: "React", img: LogoReact },
       { id: 5, skill: "Redux", img: LogoRedux },
       { id: 6, skill: "React Router", img: LogoReactRouter },
+      { id: 7, skill: "Bootstrap", img: LogoBootstrap },
       
     ],
   },
@@ -80,6 +84,7 @@ const projectsInfo = [
       { id: 4, skill: "React", img: LogoReact },
       { id: 5, skill: "Redux", img: LogoRedux },
       { id: 6, skill: "React Router", img: LogoReactRouter },
+      { id: 7, skill: "Bootstrap", img: LogoBootstrap },
     ],
   },
 ];
