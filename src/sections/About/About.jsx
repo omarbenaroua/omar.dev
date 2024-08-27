@@ -26,7 +26,7 @@ const About = () => {
       <Title onClick={scroll}>About Me</Title>
       <div className="about-text" >
         <p>
-          "Sono <span>Omar</span>, un giovane e appassionato
+          Sono <span>Omar</span>, un giovane e appassionato
           nello sviluppo siti web <span>front-end</span> con una fervente passione per il mondo
           digitale. La mia missione è tradurre creatività in codice,
           trasformando idee in straordinarie esperienze web. Guidato da una
@@ -48,7 +48,7 @@ const About = () => {
           collaborare con un professionista appassionato, creativo e dedicato a
           creare esperienze web straordinarie che superano ogni aspettativa.
           Unisciti a me nel mondo affascinante del front-end, e insieme
-          porteremo le tue idee al successo online."
+          porteremo le tue idee al successo online.
         </p>
         <img src={img} alt=" " /> 
         </div>
