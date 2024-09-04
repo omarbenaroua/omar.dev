@@ -22,6 +22,7 @@ import LogoStrapi from "../assets/icons/strapi-removebg-preview.ico"
 import LogoClerk from "../assets/icons/clerk.ico"
 import LogoCloudinary from "../assets/icons/cloudinary.png"
 import LogoGithub from "../assets/icons/github.png"
+import LogoFigma from "../assets/icons/figma.png"
 
 const skillsInfo = [
   {
@@ -56,14 +57,14 @@ const skillsInfo = [
     id: 3,
     title: "Others",
     img: Img3,
-    skills: [      
+    skills: [
       { id: 1, skill: "Strapi", img: LogoStrapi },
       { id: 2, skill: "Clerk", img: LogoClerk },
       { id: 3, skill: "Cloudinary", img: LogoCloudinary },
       { id: 4, skill: "Canva", img: LogoCanva },
       { id: 5, skill: "Microsoft 365", img: LogoMicrosoft },
       { id: 6, skill: "GitHub", img: LogoGithub },
-
+      { id: 7, skill: "Figma", img: LogoFigma },
     ],
   },
 ];
