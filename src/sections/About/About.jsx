@@ -29,8 +29,8 @@ const About = () => {
           I’m <span>Omar</span>, an aspiring front-end developer with a passion for the digital world and a strong desire to break into the industry.
           After learning the fundamentals of <span>HTML</span>, <span>CSS</span>, and <span>JavaScript</span>, I’ve dived into modern technologies to
           create user interfaces that are intuitive and engaging.
-          Over the past few months, I’ve expanded my knowledge by working with <span>React.js</span>, <span>Next.js</span>, and tools like <span>Redux</span>,
-          <span>React Router</span>, <span>TailwindCSS</span>, <span>Bootstrap</span>, <span>Figma</span>, <span>TypeScript</span>, and <span>Sass</span>.
+          Over the past few months, I’ve expanded my knowledge by working with <span>React.js</span>, <span>Next.js</span>, and tools like <span>Redux</span>
+          ,<span>React Router</span>, <span>TailwindCSS</span>, <span>Bootstrap</span>, <span>Figma</span>, <span>TypeScript</span>, and <span>Sass</span>.
           I’m excited by how these technologies enable the creation of dynamic, responsive web experiences, and it’s this innovation that drives me to explore new solutions continuously.
           Although I’m at the beginning of my career, I’m determined to improve constantly, with a curious mindset and an openness to new design and web development trends. I’m eager to
           collaborate with teams and clients to apply my knowledge, tackle new challenges, and contribute to innovative projects.
