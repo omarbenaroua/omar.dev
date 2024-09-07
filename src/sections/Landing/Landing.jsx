@@ -10,7 +10,7 @@ const Landing = () => {
       <motion.div className=""
         initial={{ opacity: 0, x: 100 }}
         animate={{ opacity: 1, x: 5 }}
-        transition={{ duration: 1.5 }}>
+        transition={{ duration: 2.5 }}>
         <img src={Img} className="img-fluid" alt=""/>
         <div className="cover-image"></div>
         </motion.div>
