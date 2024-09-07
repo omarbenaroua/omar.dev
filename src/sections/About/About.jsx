@@ -26,29 +26,17 @@ const About = () => {
       <Title onClick={scroll}>About Me</Title>
       <div className="about-text" >
         <p>
-          Sono <span>Omar</span>, un giovane e appassionato
-          nello sviluppo siti web <span>front-end</span> con una fervente passione per il mondo
-          digitale. La mia missione è tradurre creatività in codice,
-          trasformando idee in straordinarie esperienze web. Guidato da una
-          costante ricerca dell'eccellenza, mi impegno a creare design
-          coinvolgenti e interattivi che si distinguono nel panorama online. Con
-          una solida conoscenza di <span>HTML</span>, <span>CSS</span> e <span>JavaScript</span>, sono in grado di
-          costruire interfacce utente intuitive e responsive. Abbraccio le nuove
-          tecnologie e i framework più avanzati come <span>React</span> e <span>Nextjs</span>, sfruttando
-          al massimo il potenziale del front-end. La mia attenzione ai dettagli
-          si riflette in siti web esteticamente accattivanti e altamente
-          performanti. Oltre alla mia abilità tecnica, sono un curioso per
-          natura, costantemente alla ricerca di ispirazione nelle tendenze del
-          design e nelle sfide creative. Mi entusiasma affrontare nuovi progetti
-          e collaborare con clienti per portare le loro visioni alla realtà
-          digitale. La mia dedizione alla perfezione e la mia capacità di
-          risolvere problemi mi rendono un elemento prezioso per ogni squadra di
-          sviluppo front-end. Sono pronto ad affrontare qualsiasi sfida, sempre
-          alla ricerca del miglioramento continuo. Lavorare con me significa
-          collaborare con un professionista appassionato, creativo e dedicato a
-          creare esperienze web straordinarie che superano ogni aspettativa.
-          Unisciti a me nel mondo affascinante del front-end, e insieme
-          porteremo le tue idee al successo online.
+          I’m <span>Omar</span>, an aspiring front-end developer with a passion for the digital world and a strong desire to break into the industry.
+          After learning the fundamentals of <span>HTML</span>, <span>CSS</span>, and <span>JavaScript</span>, I’ve dived into modern technologies to
+          create user interfaces that are intuitive and engaging.
+          Over the past few months, I’ve expanded my knowledge by working with <span>React.js</span>, <span>Next.js</span>, and tools like <span>Redux</span>,
+          <span>React Router</span>, <span>TailwindCSS</span>, <span>Bootstrap</span>, <span>Figma</span>, <span>TypeScript</span>, and <span>Sass</span>.
+          I’m excited by how these technologies enable the creation of dynamic, responsive web experiences, and it’s this innovation that drives me to explore new solutions continuously.
+          Although I’m at the beginning of my career, I’m determined to improve constantly, with a curious mindset and an openness to new design and web development trends. I’m eager to
+          collaborate with teams and clients to apply my knowledge, tackle new challenges, and contribute to innovative projects.
+          I believe front-end development is a space full of creativity, and I’m excited to make my way into this field. Working with me means collaborating with someone who is dedicated, 
+          passionate, and always ready to learn, with the goal of growing and adding value to every project.
+          I’m ready to step up and contribute to building web experiences that can make a real difference.
         </p>
         <img src={img} alt=" " /> 
         </div>
