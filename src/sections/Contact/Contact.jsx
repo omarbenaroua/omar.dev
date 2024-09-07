@@ -22,9 +22,8 @@ function Contact() {
       <div className="container">
         <div className="text-container">
           <p className="info-text">
-          Se desideri essere contattato via email, ti invitiamo a inviarci un breve messaggio compilando
-          il modulo sottostante con il tuo nome, indirizzo email e numero di telefono. Sarà la mia premura
-          risponderti al più presto.
+            If you would like to be contacted via email, please send us a brief message by filling out the form below 
+            with your name, email address, and phone number. I will make sure to get back to you as soon as possible.
           </p>
           <div className="contact-info">
             <p className="phone-number">(+39) 350 577 0233</p>
@@ -77,7 +76,7 @@ function Contact() {
                 className="submit-button"
                 onSubmit={sendEmail}
               >
-                Invia l'email
+                Send email
               </button>
             </div>
           </form>
