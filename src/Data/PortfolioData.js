@@ -35,10 +35,10 @@ const projectsInfo = [
     image: Img,
     icon: Icon,
     title: "OmarVipe",
-    text: "OmarVipe propone una selezione esclusiva di sigarette elettroniche. Il nostro sito è alimentato da un backend Strapi per la gestione delle API, fa uso di Cloudinary per la gestione delle immagini e implementa Clerk per garantire un accesso sicuro.",
+    text: "OmarVipe offers an exclusive selection of e-cigarettes. Our website is powered by a Strapi backend for API management, uses Cloudinary for image handling, and implements Clerk to ensure secure access.",
     year: 2024,
     site: "https://omarvipe.vercel.app",
-    notice:"Il caricamento di tutti i prodotti potrebbe richiedere fino a 2 minuti a causa dell'uso di piani gratuiti."
+    notice:"Loading all products may take up to 2 minutes due to the use of free plans."
     ,    skills: [
       { id: 1, skill: "JSX", img: LogoJsx },
       { id: 2, skill: "CSS", img: LogoCss },
@@ -55,7 +55,7 @@ const projectsInfo = [
     image: Img2,
     icon: Icon2,
     title: "BeutyNaty",
-    text: "Sito web dedicato all'estetica che utilizza intensivamente il linguaggio React, integrando Redux per gestire in modo dinamico l'aggiunta e la rimozione dei prodotti dal carrello degli acquisti. Il sistema di routing React Router assicura una navigazione fluida e efficiente tra le varie sezioni del sito.",
+    text: "A website dedicated to aesthetics that extensively utilizes React, integrating Redux to dynamically manage the addition and removal of products from the shopping cart. The React Router system ensures smooth and efficient navigation between the different sections of the site.",
     year: 2023,
     site: "https://beautynaty.vercel.app",
     skills: [
@@ -74,7 +74,7 @@ const projectsInfo = [
     image: Img3,
     icon: Icon3,
     title: "Subomar",
-    text: "Sito web dedicato al diving \"immersioni subacquee\". Utilizza ampiamente il linguaggio React, integrando Redux per gestire dinamicamente l'aggiunta e la rimozione dei prodotti nel carrello degli acquisti. Inoltre, fa uso di React Router per garantire una navigazione fluida e veloce tra le diverse sezioni del sito.",
+    text: "A website dedicated to diving \"scuba diving\" that extensively uses React, integrating Redux to dynamically manage the addition and removal of products in the shopping cart. It also leverages React Router to ensure smooth and fast navigation between the different sections of the site.",
     year: 2023,
     site: "https://subomar.vercel.app",
     skills: [
