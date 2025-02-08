@@ -52,7 +52,7 @@ const Header = () => {
               " "
             ) : (
               <div className="px-2 md:block hidden">
-                <Button title="Download CV" href="/omardev/src/app/_assets/document/CV.png" download="Omar_ben_aroua_CV"/>
+                <Button title="Download CV" href="/CV_Omar_Ben_Aroua.pdf" download="Omar_ben_aroua_CV"/>
               </div>
             )}
 

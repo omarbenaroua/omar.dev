@@ -12,7 +12,7 @@ const Contact = () => {
     emailjs
       .sendForm(
         "service_2nywz1i",
-        "template_6cny90c",
+        "template_rfnl8e4",
         form.current,
         "WrfkVqS3rEtrUqB80"
       )
@@ -20,12 +20,14 @@ const Contact = () => {
         (result) => {
           console.log(result.text);
           console.log("message sent");
-          window.location.reload();
+          if (form.current) form.current.reset();
+          setPopup(true);
         },
         (error) => {
           console.log(error.text);
         }
       );
+      
   };
 
       const [Popup , setPopup] = useState(false) 
