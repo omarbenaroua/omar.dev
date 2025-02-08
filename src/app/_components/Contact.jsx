@@ -1,8 +1,7 @@
 "use client";
-import emailjs from "@emailjs/browser";
+import emailjs from '@emailjs/browser';
 import { useRef , useState } from "react";
 import ContactPopup from "../_elements/ContactPopup";
-import { motion , AnimatePresence } from "framer-motion";
 
 
 const Contact = () => {

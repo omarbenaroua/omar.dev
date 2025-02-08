@@ -2,7 +2,7 @@
 import Img from "../_assets/images/coverOmattic.jpg";
 import Icon from "../_assets/icons/sub.ico";
 //OmarVipe images
-import Img1 from "../_assets/images/coverOmarVipe.jpg";
+import Img1 from "../_assets/images/CoverOmarVipe.jpg";
 import Icon1 from "../_assets/icons/smoke.ico";
 //Beautynaty images
 import Img2 from "../_assets/images/coverBeautynaty.jpg";
