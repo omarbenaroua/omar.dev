@@ -10,6 +10,11 @@ export const metadata = {
   },
 };
 
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/omarbenaroua/omar.dev   
+git push -u origin main
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
