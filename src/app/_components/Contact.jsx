@@ -2,6 +2,7 @@
 import emailjs from '@emailjs/browser';
 import { useRef , useState } from "react";
 import ContactPopup from "../_elements/ContactPopup";
+import Title from '../_elements/Title';
 
 
 const Contact = () => {
@@ -34,9 +35,10 @@ const Contact = () => {
       const openPopup = (() => setPopup(true))
 
   return (
-    <>
+    <div>
+      <Title title="Contact"/>
     {Popup && <ContactPopup/>}
-    <section className="py-10 bg-gray-100">
+    <section className="py-32 bg-gray-100">
       <div className="max-w-4xl mx-auto px-4">
         <div className="mb-8">
           <p className="text-sm text-gray">
@@ -108,7 +110,7 @@ const Contact = () => {
         </div>
       </div>
     </section>
-    </>
+    </div>
   );
 };
 

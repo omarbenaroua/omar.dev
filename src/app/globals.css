@@ -26,10 +26,11 @@ body {
   box-shadow: 0 15px 40px rgba(255, 196, 0, 0.793)
   ;
 }
+
 .shadow-up {
-  box-shadow: 0 -15px 40px rgba(255, 196, 0, 0.793)
-  ;
+  box-shadow: 0 -15px 40px rgba(255, 196, 0, 0.793);
 }
+
 .shadow-title {
   box-shadow: 0 15px 0 rgba(255, 196, 0, 0.189);
   ;

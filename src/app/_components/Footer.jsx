@@ -8,8 +8,8 @@ import { motion } from "framer-motion";
 
 const Footer = () => {
   return (
-    <div>
-      <footer className="bg-primary">
+    <div className="relative z-10 shadow-up">
+      <footer className=" bg-primary z-20">
         <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
           <div className="flex justify-center text-teal-600">
             <a className=" flex" href="/">
